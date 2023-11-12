@@ -24,7 +24,6 @@ describe('return the number of times each word appears in the message', () => {
 
   test('"cup te a cup" should return cup2te1a1', () => {
     expect(messageDecoder('cup te a cup')).toBe('cup2te1a1')
-    expect(messageDecoder('cup te a cup')).toBeTypeOf('number')
   })
 
   test('"houses house housess" should return houses1house1housess1', () => {
